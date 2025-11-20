@@ -6,4 +6,4 @@ add()
   c=$x+$y
 }
 
-echo Sum of Two Numbers is $c
+echo "Sum of Two Numbers is" add
