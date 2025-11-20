@@ -4,7 +4,7 @@ y=30
 add()
 {
   sum=$(($x+$y))
-  return sum
+  return $sum
 }
 add
 c=$?
