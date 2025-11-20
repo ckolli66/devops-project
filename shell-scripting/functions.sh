@@ -3,7 +3,7 @@ y=30
 
 add()
 {
-  c=$x+$y
+  return ${x+y}
 }
-
+c=add
 echo "Sum of Two Numbers is" add
