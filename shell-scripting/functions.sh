@@ -3,6 +3,7 @@ y=30
 
 add()
 {
+  # shellcheck disable=SC2004
   sum=$(($x+$y))
   return $sum
 }
